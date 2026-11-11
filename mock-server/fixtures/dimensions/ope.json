@@ -1,0 +1,195 @@
+{
+ "error": false,
+ "data": {
+  "rows": [
+   [
+    "date_day",
+    "Date Day"
+   ],
+   [
+    "date_day_of_month",
+    "Date Day Of Month"
+   ],
+   [
+    "date_day_of_week",
+    "Date Day Of Week"
+   ],
+   [
+    "date_day_of_year",
+    "Date Day Of Year"
+   ],
+   [
+    "date_hour",
+    "Date Hour"
+   ],
+   [
+    "date_hour_of_day",
+    "Date Hour Of Day"
+   ],
+   [
+    "date_iso8601",
+    "Date Iso8601"
+   ],
+   [
+    "date_month",
+    "Date Month"
+   ],
+   [
+    "date_month_of_year",
+    "Date Month Of Year"
+   ],
+   [
+    "date_quarter",
+    "Date Quarter"
+   ],
+   [
+    "date_quarter_of_year",
+    "Date Quarter Of Year"
+   ],
+   [
+    "date_week",
+    "Date Week"
+   ],
+   [
+    "date_week_of_year",
+    "Date Week Of Year"
+   ],
+   [
+    "date_year",
+    "Date Year"
+   ],
+   [
+    "date_year_month",
+    "Date Year Month"
+   ],
+   [
+    "date_year_quarter",
+    "Date Year Quarter"
+   ],
+   [
+    "date_year_week",
+    "Date Year Week"
+   ],
+   [
+    "media_id",
+    "Channel Id"
+   ],
+   [
+    "media_key",
+    "Channel Key"
+   ],
+   [
+    "media_key_po",
+    "Channel Key Po"
+   ],
+   [
+    "mediaplan_id",
+    "Media plan Id"
+   ],
+   [
+    "mediaplan_name",
+    "Media plan Name"
+   ],
+   [
+    "mediaplangroup_id",
+    "Media plan group Id"
+   ],
+   [
+    "mediaplangroup_name",
+    "Media plan group Name"
+   ],
+   [
+    "ope_id",
+    "Campaign Id"
+   ],
+   [
+    "ope_name",
+    "Campaign Name"
+   ],
+   [
+    "ope_type",
+    "Campaign Type"
+   ],
+   [
+    "opealias_alias",
+    "Opealias Alias"
+   ],
+   [
+    "opealias_name",
+    "Opealias Name"
+   ],
+   [
+    "publisher_id",
+    "Publisher Id"
+   ],
+   [
+    "publisher_name",
+    "Publisher Name"
+   ],
+   [
+    "publisheralias_alias",
+    "Publisheralias Alias"
+   ],
+   [
+    "publisheralias_name",
+    "Publisheralias Name"
+   ],
+   [
+    "publishergroup_id",
+    "Publishergroup Id"
+   ],
+   [
+    "publishergroup_name",
+    "Publishergroup Name"
+   ],
+   [
+    "publishertype_id",
+    "Publishertype Id"
+   ],
+   [
+    "publishertype_name",
+    "Publishertype Name"
+   ],
+   [
+    "submedia_id",
+    "Sub-channel Id"
+   ],
+   [
+    "submedia_name",
+    "Sub-channel Name"
+   ],
+   [
+    "submediagroup_id",
+    "Submediagroup Id"
+   ],
+   [
+    "submediagroup_name",
+    "Submediagroup Name"
+   ],
+   [
+    "website_domain",
+    "Website Domain"
+   ],
+   [
+    "website_id",
+    "Website Id"
+   ],
+   [
+    "website_name",
+    "Website Name"
+   ],
+   [
+    "website_tzone",
+    "Website Tzone"
+   ]
+  ],
+  "fields": [
+   {
+    "name": "field"
+   },
+   {
+    "name": "name"
+   }
+  ]
+ }
+}

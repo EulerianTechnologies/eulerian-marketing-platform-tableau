@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Eulerian Marketing Platform</title>
+		<meta http-equiv="Cache-Control" content="no-store" />
+		<link rel="icon" href="data:," />
+		<link href="index.css" rel="stylesheet" />
+		<script src="index.ts" type="module" defer></script>
+	</head>
+	<body>
+		<main>
+			<h1>Eulerian Marketing Platform</h1>
+			<p class="hint">Batch Reporting connector — every field below comes from the API discovery endpoints.</p>
+			<p id="error" role="alert" hidden></p>
+
+			<section id="step-auth">
+				<h2>1. Connection</h2>
+				<label for="host">API endpoint URL</label>
+				<input id="host" type="url" placeholder="https://mygrid.api.eulerian.com" autocomplete="off" />
+				<small class="hint">https://&lt;grid&gt;.api.eulerian.com, .api.eulerian.ca or .api.gouv.eulerian.fr</small>
+				<label for="token">API token</label>
+				<input id="token" type="password" autocomplete="off" placeholder="Token from Eulerian &gt; Settings &gt; API" />
+				<button id="connect" type="button" disabled>Loading Tableau…</button>
+			</section>
+
+			<section id="step-source" hidden>
+				<h2>2. Data source</h2>
+				<label for="site">Website</label>
+				<select id="site"></select>
+				<label for="kind">Kind (report type)</label>
+				<select id="kind"></select>
+				<label for="path">Segmentation level (optional)</label>
+				<select id="path"><option value="">Default</option></select>
+			</section>
+
+			<section id="step-fields" hidden>
+				<h2>3. Dimensions &amp; metrics</h2>
+				<div class="columns">
+					<div>
+						<label for="dim-filter">Dimensions</label>
+						<input id="dim-filter" placeholder="Filter…" />
+						<div id="dimensions" class="checklist"></div>
+					</div>
+					<div>
+						<label for="met-filter">Metrics <small>(max 35)</small></label>
+						<input id="met-filter" placeholder="Filter…" />
+						<div id="metrics" class="checklist"></div>
+					</div>
+				</div>
+			</section>
+
+			<section id="step-dates" hidden>
+				<h2>4. Periods</h2>
+				<small class="hint">Up to 9 periods. With several, a <code>Period</code> column gives each row's period (0 = first).</small>
+				<div id="ranges"></div>
+				<template id="range-template">
+					<div class="range-row">
+						<select class="range-preset" aria-label="Period"></select>
+						<input class="range-from" type="date" title="From (inclusive)" aria-label="From" />
+						<input class="range-to" type="date" title="To (inclusive)" aria-label="To" />
+						<button class="range-remove secondary" type="button" title="Remove this period" aria-label="Remove this period">✕</button>
+					</div>
+				</template>
+				<button id="add-range" class="secondary" type="button">Add period</button>
+				<label for="date-scale">Time breakdown</label>
+				<select id="date-scale">
+					<option value="">None (aggregated over the period)</option>
+					<option value="H">Hour (period &lt; 3 days)</option>
+					<option value="D">Day (period &lt; 90 days)</option>
+					<option value="W">Week (period &lt; 55 weeks)</option>
+					<option value="M">Month (period &lt; 15 months)</option>
+				</select>
+			</section>
+
+			<section id="step-options" hidden>
+				<h2>5. Options</h2>
+				<label for="language">Labels language</label>
+				<select id="language">
+					<option value="en">English</option>
+					<option value="fr">Français</option>
+					<option value="es">Español</option>
+				</select>
+				<label for="page-size">Rows per API call</label>
+				<input id="page-size" type="number" min="1" value="1000" />
+				<details>
+					<summary>Advanced options (JSON)</summary>
+					<textarea id="advanced" rows="6" placeholder='{"segmentFilterClauses":[{"field":"device","operator":"IN","value":"Phone"}]}'></textarea>
+				</details>
+				<button id="submit" type="button">Get data</button>
+			</section>
+		</main>
+	</body>
+</html>

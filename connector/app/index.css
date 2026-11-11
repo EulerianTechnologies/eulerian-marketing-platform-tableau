@@ -1,0 +1,123 @@
+:root {
+	--fg: #1f2933;
+	--muted: #616e7c;
+	--accent: #0b5cad;
+	--danger: #b42318;
+	--border: #d0d7de;
+	--bg: #ffffff;
+}
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font: 14px/1.4 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+	color: var(--fg);
+	background: var(--bg);
+}
+main {
+	max-width: 720px;
+	margin: 0 auto;
+	padding: 16px;
+}
+h1 {
+	font-size: 20px;
+	margin: 0 0 4px;
+}
+h2 {
+	font-size: 15px;
+	margin: 20px 0 8px;
+}
+.hint {
+	color: var(--muted);
+	margin: 0 0 12px;
+}
+label {
+	display: block;
+	margin: 10px 0 4px;
+	font-weight: 600;
+}
+label.inline {
+	font-weight: 400;
+}
+input,
+select,
+textarea {
+	width: 100%;
+	padding: 6px 8px;
+	border: 1px solid var(--border);
+	border-radius: 4px;
+	font: inherit;
+}
+input[type="checkbox"] {
+	width: auto;
+}
+button {
+	margin-top: 12px;
+	padding: 8px 16px;
+	border: 0;
+	border-radius: 4px;
+	background: var(--accent);
+	color: #fff;
+	font: inherit;
+	cursor: pointer;
+}
+button.secondary {
+	background: transparent;
+	color: var(--accent);
+	border: 1px solid var(--accent);
+}
+button:disabled {
+	opacity: 0.5;
+	cursor: default;
+}
+#error {
+	color: var(--danger);
+	white-space: pre-wrap;
+	border: 1px solid var(--danger);
+	border-radius: 4px;
+	padding: 8px;
+}
+.columns {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 12px;
+}
+.checklist {
+	height: 220px;
+	overflow: auto;
+	border: 1px solid var(--border);
+	border-radius: 4px;
+	padding: 4px 8px;
+	margin-top: 4px;
+}
+.checklist label {
+	font-weight: 400;
+	margin: 2px 0;
+	display: flex;
+	gap: 6px;
+	align-items: center;
+}
+.checklist code {
+	color: var(--muted);
+	font-size: 12px;
+}
+.range-row {
+	display: grid;
+	/* preset, from, to, remove button */
+	grid-template-columns: 1fr 1fr 1fr auto;
+	gap: 6px;
+	align-items: center;
+	margin-bottom: 6px;
+}
+.range-row button {
+	margin: 0;
+}
+.range-row button[hidden] {
+	/* keeps the grid column so rows stay aligned when the last row's remove button is hidden */
+	display: block;
+	visibility: hidden;
+}
+#add-range {
+	margin: 0 0 6px;
+}

@@ -1,0 +1,38 @@
+{
+ "error": false,
+ "data": {
+  "fields": [
+   {
+    "name": "grid_id"
+   },
+   {
+    "name": "grid_name"
+   },
+   {
+    "name": "website_id"
+   },
+   {
+    "name": "website_name"
+   },
+   {
+    "name": "website_tzone"
+   }
+  ],
+  "rows": [
+   [
+    "1",
+    "fr",
+    "28",
+    "demo-fr",
+    "Europe/Paris"
+   ],
+   [
+    "1",
+    "fr",
+    "37",
+    "demo-en",
+    "America/New_York"
+   ]
+  ]
+ }
+}

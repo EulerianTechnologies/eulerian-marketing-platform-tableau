@@ -1,0 +1,34 @@
+{
+  "name": "eulerian-marketing-platform-tableau",
+  "version": "1.0.0",
+  "description": "Tableau Web Data Connector (WDC 3.0) for the Eulerian Marketing Platform Batch Reporting API",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "author": "Eulerian Technologies",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EulerianTechnologies/eulerian-marketing-platform-tableau.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:live": "vitest run test/live",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "mock": "node mock-server/server.mjs",
+    "ci": "npm run typecheck && npm test",
+    "connector:install": "cd connector && npm install",
+    "build": "node connector/node_modules/@tableau/taco-toolkit/bin/taco.js build",
+    "pack": "node scripts/clean-pack.mjs && node connector/node_modules/@tableau/taco-toolkit/bin/taco.js pack",
+    "run:desktop": "node connector/node_modules/@tableau/taco-toolkit/bin/taco.js run Desktop",
+    "package": "npm run build && npm run pack"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  }
+}

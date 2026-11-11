@@ -1,0 +1,358 @@
+{
+ "error": false,
+ "data": {
+  "fields": [
+   {
+    "name": "field"
+   },
+   {
+    "name": "name"
+   },
+   {
+    "name": "affinity"
+   }
+  ],
+  "rows": [
+   [
+    "hit",
+    "page views",
+    "int"
+   ],
+   [
+    "hitreload",
+    "page reloads",
+    "int"
+   ],
+   [
+    "visit",
+    "visits",
+    "int"
+   ],
+   [
+    "visitmc",
+    "Non-consented visits",
+    "int"
+   ],
+   [
+    "visit_visitmc",
+    "Consented visits",
+    "int"
+   ],
+   [
+    "visitmc_ratio",
+    "% Non-consented visits",
+    "pct"
+   ],
+   [
+    "hit_visit",
+    "page views/visit",
+    "float"
+   ],
+   [
+    "visitone",
+    "visits to one page",
+    "int"
+   ],
+   [
+    "visitone_visit",
+    "bounce rate",
+    "pct"
+   ],
+   [
+    "visitor",
+    "monthly unique visitors",
+    "int"
+   ],
+   [
+    "dvisitor",
+    "daily unique visitors",
+    "int"
+   ],
+   [
+    "newvisitor",
+    "new UV",
+    "int"
+   ],
+   [
+    "visitpprofile",
+    "visits per profile",
+    "int"
+   ],
+   [
+    "profilechange",
+    "profile changes",
+    "int"
+   ],
+   [
+    "visitone_visitrate",
+    "inbound rate",
+    "pct"
+   ],
+   [
+    "newcustomer",
+    "new customers",
+    "int"
+   ],
+   [
+    "duration",
+    "duration",
+    "time"
+   ],
+   [
+    "duration_visit",
+    "duration/visit",
+    "time"
+   ],
+   [
+    "action",
+    "initiated actions",
+    "int"
+   ],
+   [
+    "actionvalid",
+    "validated actions",
+    "int"
+   ],
+   [
+    "actionvalid_action",
+    "validated/initiated actions",
+    "pct"
+   ],
+   [
+    "clickorout",
+    "unique outbound clickers",
+    "int"
+   ],
+   [
+    "clickout",
+    "outbound clicks",
+    "int"
+   ],
+   [
+    "viewout",
+    "outbound impressions",
+    "int"
+   ],
+   [
+    "clickout_viewout",
+    "outbound clicks/outbound impressions",
+    "pct"
+   ],
+   [
+    "clickoutsession",
+    "session outbound clicks",
+    "int"
+   ],
+   [
+    "viewoutsession",
+    "outbound session impressions",
+    "int"
+   ],
+   [
+    "clickoutsession_viewoutsession",
+    "outbound clicks/session outbound impressions",
+    "pct"
+   ],
+   [
+    "clickoutunique",
+    "unique outbound clicks",
+    "int"
+   ],
+   [
+    "viewoutunique",
+    "outbound unique impressions",
+    "int"
+   ],
+   [
+    "clickoutunique_viewoutunique",
+    "unique outbound clicks/outbound impressions",
+    "pct"
+   ],
+   [
+    "estimatevalid",
+    "estimates",
+    "int"
+   ],
+   [
+    "realestimatevalid",
+    "real estimates",
+    "int"
+   ],
+   [
+    "realestimatevalidamount",
+    "estimate real revenue",
+    "float"
+   ],
+   [
+    "realestimatevalid_estimatevalid",
+    "real estimates/estimates",
+    "pct"
+   ],
+   [
+    "scart",
+    "initiated shopping carts",
+    "znegint"
+   ],
+   [
+    "scartunique",
+    "initiated shopping cart per visitor for calendar month",
+    "int"
+   ],
+   [
+    "scart_dvisitor",
+    "initiated shopping cart/unique visitor per day",
+    "pct"
+   ],
+   [
+    "scartvalid",
+    "sales",
+    "int"
+   ],
+   [
+    "scartvalidunique",
+    "sales per visitor for calendar month",
+    "int"
+   ],
+   [
+    "scart_scartunique",
+    "number of new initiated shopping carts",
+    "int"
+   ],
+   [
+    "scartunique_scart",
+    "% of first initiated shopping cart",
+    "pct"
+   ],
+   [
+    "scartvalid_scartvalidunique",
+    "number of rebuyer sales (monthly)",
+    "int"
+   ],
+   [
+    "scartvalidunique_scartvalid",
+    "% of rebuyer sales",
+    "pct"
+   ],
+   [
+    "realscart",
+    "abandoned shopping carts",
+    "int"
+   ],
+   [
+    "realscart_scart",
+    "shopping cart abandon rate",
+    "pct"
+   ],
+   [
+    "realscartvalid",
+    "real sales",
+    "int"
+   ],
+   [
+    "realscartvalid_scart",
+    "real sales/initiated shopping cart",
+    "pct"
+   ],
+   [
+    "realscartvalid_visit",
+    "real sales/visit",
+    "pct"
+   ],
+   [
+    "realscartvalidamount_visit",
+    "real revenue/visit",
+    "float"
+   ],
+   [
+    "realscartvalid_dvisitor",
+    "real sales/unique visitor per day",
+    "pct"
+   ],
+   [
+    "scartvalidamount",
+    "revenue",
+    "float"
+   ],
+   [
+    "scartvalidamount_notax",
+    "revenue excluding taxes",
+    "float"
+   ],
+   [
+    "scartvalidamount_notax_scartvalid",
+    "average shopping cart excluding taxes",
+    "float"
+   ],
+   [
+    "realscartvalidamount",
+    "real revenue",
+    "float"
+   ],
+   [
+    "realscartvalidamount_notax",
+    "real revenue excluding taxes",
+    "float"
+   ],
+   [
+    "realscartvalidamount_notax_realscartvalid",
+    "real average shopping cart excluding taxes",
+    "float"
+   ],
+   [
+    "realscartvalid_project",
+    "projected real sales",
+    "int"
+   ],
+   [
+    "realscartvalidamount_project",
+    "projected real revenue",
+    "float"
+   ],
+   [
+    "realscartvalidmargin_project",
+    "projected real sales margin",
+    "float"
+   ],
+   [
+    "iduserset",
+    "UID presence",
+    "int"
+   ],
+   [
+    "iduserswitch",
+    "differential UID cookie/database",
+    "int"
+   ],
+   [
+    "iduserswitch_iduserset",
+    "% different/present UID",
+    "pct"
+   ],
+   [
+    "appinstall",
+    "native application install",
+    "int"
+   ],
+   [
+    "visitadblock",
+    "visits with an adblock",
+    "int"
+   ],
+   [
+    "visitadblock_visit",
+    "% visits with an adblock",
+    "pct"
+   ],
+   [
+    "hitnoid",
+    "access without allocated visit or unique visitor",
+    "int"
+   ],
+   [
+    "visithardid",
+    "recovered visits",
+    "int"
+   ]
+  ]
+ }
+}

@@ -1,0 +1,41 @@
+{
+  "name": "eulerian-marketing-platform",
+  "description": "Tableau Web Data Connector 3.0 for the Eulerian Marketing Platform Batch Reporting API",
+  "author": "Eulerian Technologies",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@tableau/taco-toolkit": "2.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "build": "taco-scripts build",
+    "clean": "taco-scripts clean",
+    "start": "taco-scripts start"
+  },
+  "targets": {
+    "handlers": {
+      "includeNodeModules": true,
+      "sourceMap": false,
+      "context": "web-worker",
+      "distDir": "../dist/handlers",
+      "outputFormat": "commonjs",
+      "isLibrary": false,
+      "optimize": false
+    },
+    "app": {
+      "publicUrl": "./",
+      "distDir": "../dist/app",
+      "engines": {
+        "browsers": "Chrome 70"
+      }
+    }
+  },
+  "alias": {
+    "process": false,
+    "path": false,
+    "util": false
+  }
+}

@@ -1,0 +1,911 @@
+{
+ "error": false,
+ "data": {
+  "fields": [
+   {
+    "name": "path"
+   },
+   {
+    "name": "text"
+   },
+   {
+    "name": "data"
+   },
+   {
+    "name": "segmentations"
+   }
+  ],
+  "rows": [
+   [
+    "mcMEDIAINCOMING[28].mcMEDIANA",
+    "direct access",
+    [],
+    []
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIAAF",
+    "affiliate",
+    [],
+    [
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcPUBLISHERGROUP",
+      "text": "publisher group"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcOPEDATAREFERERDOMAIN.mcREFERERDOMAIN",
+      "text": "referrer domain"
+     },
+     {
+      "text": "virtual sub-channel group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcSUBMEDIAGROUP"
+     },
+     {
+      "text": "tracking id",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcOPEDATA"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcMEDIAPLANGROUP",
+      "text": "media plan group"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcPUBLISHERTYPE",
+      "text": "publisher type"
+     },
+     {
+      "text": "virtual sub-channel",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcSUBMEDIA"
+     },
+     {
+      "text": "product",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcPRODUCT"
+     },
+     {
+      "text": "banner",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcCREATIVE"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcMEDIAPLAN",
+      "text": "media plan"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcOPE",
+      "text": "acquisition campaign"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcINSEGMENTITEMCATEGORY.mcINSEGMENTITEMCATEGORY",
+      "text": "segment category"
+     },
+     {
+      "text": "content type",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcCONTENTTYPE"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcOPEDATAINSEGMENTITEM.mcINSEGMENT",
+      "text": "inbound segment"
+     },
+     {
+      "text": "publisher",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF.mcPUBLISHER"
+     },
+     {
+      "leaf": 1,
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAF#mgOPEDATACLICKTHRUURL",
+      "text": "destination URL"
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIAAD",
+    "display",
+    [],
+    [
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcPUBLISHER",
+      "text": "publisher"
+     },
+     {
+      "text": "acquisition campaign",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcOPE"
+     },
+     {
+      "text": "content type",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcCONTENTTYPE"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcOPEDATAINSEGMENTITEM.mcINSEGMENT",
+      "text": "inbound segment"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcSUBMEDIA",
+      "text": "virtual sub-channel"
+     },
+     {
+      "text": "product",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcPRODUCT"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcCREATIVETYPE",
+      "text": "format"
+     },
+     {
+      "text": "banner",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcCREATIVE"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcMEDIAPLAN",
+      "text": "media plan"
+     },
+     {
+      "text": "publisher type",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcPUBLISHERTYPE"
+     },
+     {
+      "text": "location",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcLOCATION"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcMEDIAPLANGROUP",
+      "text": "media plan group"
+     },
+     {
+      "text": "banner group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcCREATIVEGROUP"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcOPEDATAREFERERDOMAIN.mcREFERERDOMAIN",
+      "text": "referrer domain"
+     },
+     {
+      "text": "publisher group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcPUBLISHERGROUP"
+     },
+     {
+      "text": "tracking id",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcOPEDATA"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD.mcSUBMEDIAGROUP",
+      "text": "virtual sub-channel group"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAAD#mgOPEDATACLICKTHRUURL",
+      "text": "destination URL",
+      "leaf": 1
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIARF",
+    "referrer domain",
+    [],
+    [
+     {
+      "text": "referrer domain",
+      "path": "mcMEDIAINCOMING[28].mcMEDIARF.mcMEDIARF"
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIAIN",
+    "internal network",
+    [],
+    [
+     {
+      "text": "acquisition campaign",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAIN.mcOPE"
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIAPT",
+    "partnership",
+    [],
+    [
+     {
+      "text": "media plan",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPT.mcMEDIAPLAN"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPT.mcSUBMEDIA",
+      "text": "virtual sub-channel"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPT.mcPRODUCT",
+      "text": "product"
+     },
+     {
+      "text": "inbound segment",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPT.mcOPEDATAINSEGMENTITEM.mcINSEGMENT"
+     },
+     {
+      "text": "segment category",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPT.mcINSEGMENTITEMCATEGORY.mcINSEGMENTITEMCATEGORY"
+     },
+     {
+      "text": "acquisition campaign",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPT.mcOPE"
+     },
+     {
+      "text": "publisher",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPT.mcPUBLISHER"
+     },
+     {
+      "text": "tracking id",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPT.mcOPEDATA"
+     },
+     {
+      "text": "virtual sub-channel group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPT.mcSUBMEDIAGROUP"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPT.mcOPEDATAREFERERDOMAIN.mcREFERERDOMAIN",
+      "text": "referrer domain"
+     },
+     {
+      "text": "publisher group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPT.mcPUBLISHERGROUP"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPT.mcMEDIAPLANGROUP",
+      "text": "media plan group"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPT.mcPUBLISHERTYPE",
+      "text": "publisher type"
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIAGN",
+    "generic",
+    [],
+    [
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcPUBLISHERTYPE",
+      "text": "publisher type"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcLOCATION",
+      "text": "location"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcMEDIAPLANGROUP",
+      "text": "media plan group"
+     },
+     {
+      "text": "banner group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcCREATIVEGROUP"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcPUBLISHERGROUP",
+      "text": "publisher group"
+     },
+     {
+      "text": "referrer domain",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcOPEDATAREFERERDOMAIN.mcREFERERDOMAIN"
+     },
+     {
+      "text": "tracking id",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcOPEDATA"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcSUBMEDIAGROUP",
+      "text": "virtual sub-channel group"
+     },
+     {
+      "text": "publisher",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcPUBLISHER"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcOPE",
+      "text": "acquisition campaign"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcCONTENTTYPE",
+      "text": "content type"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcOPEDATAINSEGMENTITEM.mcINSEGMENT",
+      "text": "inbound segment"
+     },
+     {
+      "text": "virtual sub-channel",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcSUBMEDIA"
+     },
+     {
+      "text": "product",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcPRODUCT"
+     },
+     {
+      "text": "format",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcCREATIVETYPE"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcMEDIAPLAN",
+      "text": "media plan"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN.mcCREATIVE",
+      "text": "banner"
+     },
+     {
+      "leaf": 1,
+      "text": "destination URL",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAGN#mgOPEDATACLICKTHRUURL"
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIASE",
+    "search engine",
+    [],
+    [
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASE.mcMEDIASEKW",
+      "text": "keyword"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASE.mcSEARCHENGINEKEYWORDNAME.*",
+      "text": "group by keyword"
+     },
+     {
+      "text": "search engine",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASE.mcMEDIASE"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASE.mcSEARCHENGINEGROUP",
+      "text": "search engine group"
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIASL",
+    "paid search",
+    [],
+    [
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcOPEDATAINSEGMENTITEM.mcINSEGMENT",
+      "text": "inbound segment"
+     },
+     {
+      "text": "acquisition campaign",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcSEMCAMPAIGN"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcSEMACCOUNT",
+      "text": "account"
+     },
+     {
+      "text": "keyword",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcSEMKEYWORD"
+     },
+     {
+      "text": "network",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcSEMNETWORK"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcSEMPUBLISHER",
+      "text": "publisher"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcMEDIAPLAN",
+      "text": "media plan"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcSUBMEDIA",
+      "text": "virtual sub-channel"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcMEDIAPLANGROUP",
+      "text": "media plan group"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcSEMMATCHTYPE",
+      "text": "targeting"
+     },
+     {
+      "text": "publisher type",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcPUBLISHERTYPE"
+     },
+     {
+      "text": "creative group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcSEMCREATIVEGROUP"
+     },
+     {
+      "text": "location",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcSEMPLACEMENT"
+     },
+     {
+      "text": "tracking id",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcOPEDATA"
+     },
+     {
+      "text": "virtual sub-channel group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcSUBMEDIAGROUP"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcSEMDEVICE",
+      "text": "device"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcPUBLISHERGROUP",
+      "text": "publisher group"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcOPEDATAREFERERDOMAIN.mcREFERERDOMAIN",
+      "text": "referrer domain"
+     },
+     {
+      "text": "ad",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL.mcSEMCREATIVE"
+     },
+     {
+      "leaf": 1,
+      "text": "destination URL",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASL#mgOPEDATACLICKTHRUURL"
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIAML",
+    "mailing",
+    [],
+    [
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAML.mcMEDIAPLANGROUP",
+      "text": "media plan group"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAML.mcOPE",
+      "text": "acquisition campaign"
+     },
+     {
+      "text": "inbound segment",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAML.mcOPEDATAINSEGMENTITEM.mcINSEGMENT"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAML.mcPUBLISHERTYPE",
+      "text": "publisher type"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAML.mcPUBLISHER",
+      "text": "publisher"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAML.mcSUBMEDIA",
+      "text": "virtual sub-channel"
+     },
+     {
+      "text": "media plan",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAML.mcMEDIAPLAN"
+     },
+     {
+      "text": "campaign/destination URL name",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAML.mcOPEDATAMULTICLICKTHRUURLNAMEOPE"
+     },
+     {
+      "text": "referrer domain",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAML.mcOPEDATAREFERERDOMAIN.mcREFERERDOMAIN"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAML.mcPUBLISHERGROUP",
+      "text": "publisher group"
+     },
+     {
+      "text": "virtual sub-channel group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAML.mcSUBMEDIAGROUP"
+     },
+     {
+      "text": "tracking id",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAML.mcOPEDATA"
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIATF",
+    "shopbot",
+    [],
+    [
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIATF.mcPUBLISHERTYPE",
+      "text": "publisher type"
+     },
+     {
+      "text": "media plan group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATF.mcMEDIAPLANGROUP"
+     },
+     {
+      "text": "tracking id",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATF.mcOPEDATA"
+     },
+     {
+      "text": "virtual sub-channel group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATF.mcSUBMEDIAGROUP"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIATF.mcOPEDATAREFERERDOMAIN.mcREFERERDOMAIN",
+      "text": "referrer domain"
+     },
+     {
+      "text": "publisher group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATF.mcPUBLISHERGROUP"
+     },
+     {
+      "text": "product parameter",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATF.mcPRODUCTPARAM"
+     },
+     {
+      "text": "publisher",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATF.mcPUBLISHER"
+     },
+     {
+      "text": "inbound segment",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATF.mcOPEDATAINSEGMENTITEM.mcINSEGMENT"
+     },
+     {
+      "text": "acquisition campaign",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATF.mcOPE"
+     },
+     {
+      "text": "media plan",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATF.mcMEDIAPLAN"
+     },
+     {
+      "text": "product",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATF.mcPRODUCT"
+     },
+     {
+      "text": "virtual sub-channel",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATF.mcSUBMEDIA"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIATF#mgOPEDATACLICKTHRUURL",
+      "text": "destination URL",
+      "leaf": 1
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIAOF",
+    "offline",
+    [],
+    [
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAOF.mcSUBMEDIA",
+      "text": "virtual sub-channel"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAOF.mcMEDIAPLAN",
+      "text": "media plan"
+     },
+     {
+      "text": "referrer domain",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAOF.mcOPEDATAREFERERDOMAIN.mcREFERERDOMAIN"
+     },
+     {
+      "text": "publisher group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAOF.mcPUBLISHERGROUP"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAOF.mcSUBMEDIAGROUP",
+      "text": "virtual sub-channel group"
+     },
+     {
+      "text": "media plan group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAOF.mcMEDIAPLANGROUP"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAOF.mcOPE",
+      "text": "acquisition campaign"
+     },
+     {
+      "text": "inbound segment",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAOF.mcOPEDATAINSEGMENTITEM.mcINSEGMENT"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAOF.mcPUBLISHERTYPE",
+      "text": "publisher type"
+     },
+     {
+      "text": "publisher",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAOF.mcPUBLISHER"
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIASC",
+    "social",
+    [],
+    [
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcOPEDATAINSEGMENTITEM.mcINSEGMENT",
+      "text": "inbound segment"
+     },
+     {
+      "text": "content type",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcCONTENTTYPE"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcOPE",
+      "text": "acquisition campaign"
+     },
+     {
+      "text": "publisher",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcPUBLISHER"
+     },
+     {
+      "text": "format",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcCREATIVETYPE"
+     },
+     {
+      "text": "media plan",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcMEDIAPLAN"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcCREATIVE",
+      "text": "banner"
+     },
+     {
+      "text": "virtual sub-channel",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcSUBMEDIA"
+     },
+     {
+      "text": "product",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcPRODUCT"
+     },
+     {
+      "text": "media plan group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcMEDIAPLANGROUP"
+     },
+     {
+      "text": "location",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcLOCATION"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcOPETYPE.*",
+      "text": "campaign type"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcPUBLISHERTYPE",
+      "text": "publisher type"
+     },
+     {
+      "text": "tracking id",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcOPEDATA"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcSUBMEDIAGROUP",
+      "text": "virtual sub-channel group"
+     },
+     {
+      "text": "banner group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcCREATIVEGROUP"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcPUBLISHERGROUP",
+      "text": "publisher group"
+     },
+     {
+      "text": "referrer domain",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC.mcOPEDATAREFERERDOMAIN.mcREFERERDOMAIN"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASC#mgOPEDATACLICKTHRUURL",
+      "text": "destination URL",
+      "leaf": 1
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIAPI",
+    "paid inclusion",
+    [],
+    [
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPI.mcPUBLISHERTYPE",
+      "text": "publisher type"
+     },
+     {
+      "text": "publisher",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPI.mcPUBLISHER"
+     },
+     {
+      "text": "media plan group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPI.mcMEDIAPLANGROUP"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPI.mcOPE",
+      "text": "acquisition campaign"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPI.mcOPEDATAINSEGMENTITEM.mcINSEGMENT",
+      "text": "inbound segment"
+     },
+     {
+      "text": "referrer domain",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPI.mcOPEDATAREFERERDOMAIN.mcREFERERDOMAIN"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPI.mcPUBLISHERGROUP",
+      "text": "publisher group"
+     },
+     {
+      "text": "virtual sub-channel group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPI.mcSUBMEDIAGROUP"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPI.mcSUBMEDIA",
+      "text": "virtual sub-channel"
+     },
+     {
+      "text": "media plan",
+      "path": "mcMEDIAINCOMING[28].mcMEDIAPI.mcMEDIAPLAN"
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIATFF",
+    "shopbots (earned)",
+    [],
+    [
+     {
+      "text": "virtual sub-channel",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATFF.mcSUBMEDIA"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIATFF.mcPRODUCT",
+      "text": "product"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIATFF.mcMEDIAPLAN",
+      "text": "media plan"
+     },
+     {
+      "text": "acquisition campaign",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATFF.mcOPE"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIATFF.mcOPEDATAINSEGMENTITEM.mcINSEGMENT",
+      "text": "inbound segment"
+     },
+     {
+      "text": "publisher",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATFF.mcPUBLISHER"
+     },
+     {
+      "text": "product parameter",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATFF.mcPRODUCTPARAM"
+     },
+     {
+      "text": "publisher group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATFF.mcPUBLISHERGROUP"
+     },
+     {
+      "text": "referrer domain",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATFF.mcOPEDATAREFERERDOMAIN.mcREFERERDOMAIN"
+     },
+     {
+      "text": "tracking id",
+      "path": "mcMEDIAINCOMING[28].mcMEDIATFF.mcOPEDATA"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIATFF.mcSUBMEDIAGROUP",
+      "text": "virtual sub-channel group"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIATFF.mcMEDIAPLANGROUP",
+      "text": "media plan group"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIATFF.mcPUBLISHERTYPE",
+      "text": "publisher type"
+     },
+     {
+      "leaf": 1,
+      "path": "mcMEDIAINCOMING[28].mcMEDIATFF#mgOPEDATACLICKTHRUURL",
+      "text": "destination URL"
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIABR",
+    "branding SEO",
+    [],
+    [
+     {
+      "text": "search query",
+      "path": "mcMEDIAINCOMING[28].mcMEDIABR.mcOPEDATAKEYWORD"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIABR.mcOPEDATASEARCHENGINE.mcOPEDATASEARCHENGINE",
+      "text": "search engine"
+     }
+    ]
+   ],
+   [
+    "mcMEDIAINCOMING[28].mcMEDIASCF",
+    "social free",
+    [],
+    [
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcMEDIAPLANGROUP",
+      "text": "media plan group"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcOPETYPE.*",
+      "text": "campaign type"
+     },
+     {
+      "text": "location",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcLOCATION"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcPUBLISHERTYPE",
+      "text": "publisher type"
+     },
+     {
+      "text": "virtual sub-channel group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcSUBMEDIAGROUP"
+     },
+     {
+      "text": "tracking id",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcOPEDATA"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcCREATIVEGROUP",
+      "text": "banner group"
+     },
+     {
+      "text": "publisher group",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcPUBLISHERGROUP"
+     },
+     {
+      "text": "referrer domain",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcOPEDATAREFERERDOMAIN.mcREFERERDOMAIN"
+     },
+     {
+      "text": "content type",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcCONTENTTYPE"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcOPEDATAINSEGMENTITEM.mcINSEGMENT",
+      "text": "inbound segment"
+     },
+     {
+      "text": "acquisition campaign",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcOPE"
+     },
+     {
+      "text": "publisher",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcPUBLISHER"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcCREATIVETYPE",
+      "text": "format"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcMEDIAPLAN",
+      "text": "media plan"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcCREATIVE",
+      "text": "banner"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcSUBMEDIA",
+      "text": "virtual sub-channel"
+     },
+     {
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF.mcPRODUCT",
+      "text": "product"
+     },
+     {
+      "text": "destination URL",
+      "path": "mcMEDIAINCOMING[28].mcMEDIASCF#mgOPEDATACLICKTHRUURL",
+      "leaf": 1
+     }
+    ]
+   ]
+  ]
+ }
+}

@@ -1,0 +1,36 @@
+{
+  "name": "eulerian-marketing-platform",
+  "displayName": "Eulerian Marketing Platform",
+  "version": "1.0.0",
+  "tableau-version": {
+    "min": "2025.2"
+  },
+  "vendor": {
+    "name": "Eulerian Technologies",
+    "support-link": "https://github.com/EulerianTechnologies/eulerian-marketing-platform-tableau/issues",
+    "email": "support@eulerian.com"
+  },
+  "permission": {
+    "api": {
+      "https://*.api.eulerian.com/": [
+        "GET",
+        "POST"
+      ],
+      "https://*.api.eulerian.ca/": [
+        "GET",
+        "POST"
+      ],
+      "https://*.api.gouv.eulerian.fr/": [
+        "GET",
+        "POST"
+      ]
+    }
+  },
+  "auth": {
+    "type": "custom"
+  },
+  "window": {
+    "height": 860,
+    "width": 760
+  }
+}

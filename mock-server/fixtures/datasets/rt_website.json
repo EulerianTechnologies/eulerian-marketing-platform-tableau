@@ -1,0 +1,102 @@
+{
+ "path": "mcWEBSITE[?]#mgWEBSITE",
+ "kind": "rt#website",
+ "data": [
+  [
+   "2026-11-02",
+   "demo-fr",
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   "2026-11-03",
+   "demo-fr",
+   0,
+   0,
+   0,
+   0
+  ],
+  [
+   "2026-11-04",
+   "demo-fr",
+   519,
+   70,
+   0,
+   0
+  ],
+  [
+   "2026-11-05",
+   "demo-fr",
+   5599,
+   616,
+   2,
+   501.5
+  ],
+  [
+   "2026-11-06",
+   "demo-fr",
+   6874,
+   622,
+   7,
+   3169.31
+  ],
+  [
+   "2026-11-07",
+   "demo-fr",
+   7580,
+   856,
+   8,
+   6426.91
+  ],
+  [
+   "2026-11-08",
+   "demo-fr",
+   7629,
+   792,
+   9,
+   3033.33
+  ]
+ ],
+ "rowCount": 7,
+ "totalRowCount": 7,
+ "columnHeader": [
+  {
+   "name": "Day",
+   "field": "date_day",
+   "dataType": "date",
+   "type": "dimension"
+  },
+  {
+   "type": "dimension",
+   "name": "Website",
+   "dataType": "string",
+   "field": "website_name"
+  },
+  {
+   "name": "Page views",
+   "field": "hit",
+   "dataType": "int",
+   "type": "metric"
+  },
+  {
+   "dataType": "int",
+   "field": "visit",
+   "name": "Visits",
+   "type": "metric"
+  },
+  {
+   "type": "metric",
+   "field": "realscartvalid",
+   "dataType": "int",
+   "name": "Orders"
+  },
+  {
+   "name": "Revenue",
+   "dataType": "float",
+   "field": "realscartvalidamount",
+   "type": "metric"
+  }
+ ]
+}

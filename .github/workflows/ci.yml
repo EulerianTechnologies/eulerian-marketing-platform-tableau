@@ -1,0 +1,42 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      # Secrets cannot be used in `if:` directly: expose it as an env var first.
+      EMP_TOKEN: ${{ secrets.EMP_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm test
+      - name: Live tests (only when the secret is configured)
+        if: ${{ env.EMP_TOKEN != '' }}
+        env:
+          EMP_HOST: ${{ vars.EMP_HOST }}
+          EMP_SITE: ${{ vars.EMP_SITE }}
+        run: npm run test:live
+
+  typecheck-taco:
+    # Checks handlers and dialog against the real Taco toolkit types (no build: it needs the license prompt).
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm install --no-audit --no-fund
+        working-directory: connector
+      - run: npx tsc --noEmit -p tsconfig.json
+        working-directory: connector

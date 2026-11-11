@@ -1,0 +1,459 @@
+{
+ "data": {
+  "fields": [
+   {
+    "name": "kind"
+   },
+   {
+    "name": "name"
+   }
+  ],
+  "rows": [
+   [
+    "hq#query",
+    "Human Query for real-time reporting"
+   ],
+   [
+    "mta#query",
+    "Multi-Touch Attribution reporting - see the dedicated mta_report method for simple queries"
+   ],
+   [
+    "rt#insummary",
+    "acquisition & performance"
+   ],
+   [
+    "rt#insales",
+    "sales"
+   ],
+   [
+    "rt#inaudience",
+    "origin"
+   ],
+   [
+    "rt#website",
+    "website"
+   ],
+   [
+    "rt#inadvertising",
+    "display"
+   ],
+   [
+    "rt#inaffiliation",
+    "affiliate"
+   ],
+   [
+    "rt#inpartner",
+    "partnership"
+   ],
+   [
+    "rt#inmailing",
+    "mailing"
+   ],
+   [
+    "rt#inpaidinclusion",
+    "paid-inclusion"
+   ],
+   [
+    "rt#intrustedfeed",
+    "shopbot"
+   ],
+   [
+    "rt#insponsoredlink",
+    "paid search"
+   ],
+   [
+    "rt#insearchengine",
+    "Search Engine Optimization (SEO)"
+   ],
+   [
+    "rt#inreferer",
+    "referrer"
+   ],
+   [
+    "rt#inbranding",
+    "branding SEO"
+   ],
+   [
+    "rt#insocial",
+    "social"
+   ],
+   [
+    "rt#ingeneric",
+    "General"
+   ],
+   [
+    "rt#dewebsite",
+    "Custom dimensions"
+   ],
+   [
+    "rt#mediaplan",
+    "media plans"
+   ],
+   [
+    "rt#publisher",
+    "publishers"
+   ],
+   [
+    "rt#location",
+    "locations"
+   ],
+   [
+    "rt#creative",
+    "banners"
+   ],
+   [
+    "rt#insegment",
+    "inbound segments"
+   ],
+   [
+    "rt#opesubmedia",
+    "virtual sub-channel"
+   ],
+   [
+    "rt#landing",
+    "landing page by channel"
+   ],
+   [
+    "rt#geoloc",
+    "country"
+   ],
+   [
+    "rt#geolocregion",
+    "by region"
+   ],
+   [
+    "rt#devicebrowser",
+    "browser"
+   ],
+   [
+    "rt#devicetype",
+    "device type"
+   ],
+   [
+    "rt#deviceplatform",
+    "device platform"
+   ],
+   [
+    "rt#devicehardware",
+    "device hardware"
+   ],
+   [
+    "rt#devicescreeninches",
+    "device screen inches"
+   ],
+   [
+    "rt#inproduct",
+    "product acquisition & performance"
+   ],
+   [
+    "rt#productevent",
+    "product events"
+   ],
+   [
+    "rt#websitetree",
+    "tree structure"
+   ],
+   [
+    "rt#pagetree",
+    "page list"
+   ],
+   [
+    "rt#pagetreeentry",
+    "landing pages"
+   ],
+   [
+    "rt#pagetreeexit",
+    "exit pages"
+   ],
+   [
+    "rt#pagetreeerror",
+    "error pages"
+   ],
+   [
+    "rt#pagetreefocus",
+    "focus pages"
+   ],
+   [
+    "rt#headingtree",
+    "heading list"
+   ],
+   [
+    "rt#headingtreeentry",
+    "inbound headings"
+   ],
+   [
+    "rt#headingtreeexit",
+    "exit headings"
+   ],
+   [
+    "rt#pagegroup",
+    "list of page groups"
+   ],
+   [
+    "rt#pagegroupfocus",
+    "focused page groups"
+   ],
+   [
+    "rt#subkey2chord",
+    "undefined key_ns=global.report.subkey2chord key=report.subkey2chord # lg=en"
+   ],
+   [
+    "rt#funnel",
+    "Funnel"
+   ],
+   [
+    "rt#browser",
+    "browser"
+   ],
+   [
+    "rt#flash",
+    "flash plugin"
+   ],
+   [
+    "rt#isp",
+    "Internet service provider"
+   ],
+   [
+    "rt#os",
+    "operating system"
+   ],
+   [
+    "rt#lang",
+    "browser language"
+   ],
+   [
+    "rt#sdepth",
+    "screen resolution"
+   ],
+   [
+    "rt#ssize",
+    "screen size"
+   ],
+   [
+    "rt#action",
+    "break down by channel"
+   ],
+   [
+    "rt#actionsequence",
+    "sequences of conversion tracking"
+   ],
+   [
+    "rt#actionparam",
+    "form parameters"
+   ],
+   [
+    "rt#event",
+    "events"
+   ],
+   [
+    "rt#blockpromo",
+    "self-promotion"
+   ],
+   [
+    "rt#cgiparam",
+    "custom parameters"
+   ],
+   [
+    "rt#justclick",
+    "click counter"
+   ],
+   [
+    "rt#iduserparamvalue",
+    "by channel and user-centric parameters"
+   ],
+   [
+    "rt#profilechange",
+    "evolution of the profile changes"
+   ],
+   [
+    "rt#email",
+    "email acquisition database"
+   ],
+   [
+    "rt#clusterincoming",
+    "by audience"
+   ],
+   [
+    "rt#ecis",
+    "Eulerian cookie diagnostic"
+   ],
+   [
+    "rt#handleraccess",
+    "Eulerian server access"
+   ],
+   [
+    "rt#content",
+    "Eulerian Content Manager"
+   ],
+   [
+    "rt#epm",
+    "Eulerian Privacy Manager"
+   ],
+   [
+    "rt#redirectdomainaccess",
+    "redirection domain"
+   ],
+   [
+    "rt#outsummary",
+    "by campaign"
+   ],
+   [
+    "rt#appinstall",
+    "installations / upgrades"
+   ],
+   [
+    "rt#uidaccess",
+    "user-data access"
+   ],
+   [
+    "rt#idusercrossdev",
+    "cross-device"
+   ],
+   [
+    "rt#sslcipher",
+    "encryption algorithm"
+   ],
+   [
+    "rt#sslversion",
+    "version"
+   ],
+   [
+    "rt#tagmaster",
+    "TMS"
+   ],
+   [
+    "rt#aadcampaign",
+    "By campaign"
+   ],
+   [
+    "rt#aadsurface",
+    "Visibility"
+   ],
+   [
+    "rt#aadduration",
+    "Exposure duration"
+   ],
+   [
+    "rt#merchandisertpope",
+    "by campaign"
+   ],
+   [
+    "rt#merchandisertpopelink",
+    "by dynamic link"
+   ],
+   [
+    "rt#merchandisertpcreativeengineproductset",
+    "By rule"
+   ],
+   [
+    "rt#dataconnector",
+    "Connectors"
+   ],
+   [
+    "rt#dataconnectorcm",
+    "Cookie-matching"
+   ],
+   [
+    "rt#rtdclustervalue",
+    "by channel"
+   ],
+   [
+    "rt#rtdcluster",
+    "by audience"
+   ],
+   [
+    "rt#ebmdbreq",
+    "saved queries"
+   ],
+   [
+    "rt#audiencevenn",
+    "audience duplication"
+   ],
+   [
+    "rt#eattributiontag",
+    "tags triggering"
+   ],
+   [
+    "rt#eattributionis",
+    "attribution"
+   ],
+   [
+    "rt#amdelay",
+    "delay"
+   ],
+   [
+    "rt#cjqualifyoptimal",
+    "undefined key_ns=global.report.cjqualifyoptimal key=report.cjqualifyoptimal # lg=en"
+   ],
+   [
+    "cj#deviceexclusivity-simple",
+    "Customer Journey : CJDeviceexclusivitySimpleReportingRequest"
+   ],
+   [
+    "cj#velocity-advanced",
+    "Customer Journey : CJVelocityAdvancedReportingRequest"
+   ],
+   [
+    "cj#bias-simple",
+    "Customer Journey : CJBiasSimpleReportingRequest"
+   ],
+   [
+    "cj#mediapath-simple",
+    "Customer Journey : CJMediapathSimpleReportingRequest"
+   ],
+   [
+    "cj#duration-simple",
+    "Customer Journey : CJDurationSimpleReportingRequest"
+   ],
+   [
+    "cj#devicepath-simple",
+    "Customer Journey : CJDevicepathSimpleReportingRequest"
+   ],
+   [
+    "cj#touch-simple",
+    "Customer Journey : CJTouchSimpleReportingRequest"
+   ],
+   [
+    "cj#mediaexclusivity-advanced",
+    "Customer Journey : CJMediaexclusivityAdvancedReportingRequest"
+   ],
+   [
+    "cj#devicepath-advanced",
+    "Customer Journey : CJDevicepathAdvancedReportingRequest"
+   ],
+   [
+    "cj#qualifyengage-simple",
+    "Customer Journey : CJQualifyengageSimpleReportingRequest"
+   ],
+   [
+    "cj#assist-simple",
+    "Customer Journey : CJAssistSimpleReportingRequest"
+   ],
+   [
+    "cj#velocity-simple",
+    "Customer Journey : CJVelocitySimpleReportingRequest"
+   ],
+   [
+    "cj#assist-advanced",
+    "Customer Journey : CJAssistAdvancedReportingRequest"
+   ],
+   [
+    "cj#deviceexclusivity-advanced",
+    "Customer Journey : CJDeviceexclusivityAdvancedReportingRequest"
+   ],
+   [
+    "cj#bias-advanced",
+    "Customer Journey : CJBiasAdvancedReportingRequest"
+   ],
+   [
+    "cj#mediapath-advanced",
+    "Customer Journey : CJMediapathAdvancedReportingRequest"
+   ],
+   [
+    "cj#mediaexclusivity-simple",
+    "Customer Journey : CJMediaexclusivitySimpleReportingRequest"
+   ]
+  ]
+ },
+ "error": false
+}

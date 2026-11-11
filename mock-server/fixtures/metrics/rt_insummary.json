@@ -1,0 +1,808 @@
+{
+ "error": false,
+ "data": {
+  "rows": [
+   [
+    "click",
+    "inbound clicks",
+    "int"
+   ],
+   [
+    "view",
+    "impressions :)",
+    "int"
+   ],
+   [
+    "click_view",
+    "clicks/impressions",
+    "pct"
+   ],
+   [
+    "external_click",
+    "partner clicks",
+    "int"
+   ],
+   [
+    "external_view",
+    "partner impressions",
+    "int"
+   ],
+   [
+    "external_realview",
+    "partner viewable impressions",
+    "int"
+   ],
+   [
+    "externalclick_externalview",
+    "partner clicks/partner impressions",
+    "pct"
+   ],
+   [
+    "viewsession",
+    "session impressions",
+    "int"
+   ],
+   [
+    "clicksession",
+    "session inbound clicks",
+    "int"
+   ],
+   [
+    "clicksession_viewsession",
+    "clicks/impressions (session)",
+    "pct"
+   ],
+   [
+    "viewunique",
+    "unique impressions",
+    "int"
+   ],
+   [
+    "clickunique",
+    "unique inbound clicks",
+    "int"
+   ],
+   [
+    "clickunique_viewunique",
+    "clicks/impressions (unique)",
+    "pct"
+   ],
+   [
+    "hit",
+    "page views",
+    "int"
+   ],
+   [
+    "visit",
+    "visits",
+    "int"
+   ],
+   [
+    "vrvisit_visit",
+    "revisit rate",
+    "pct"
+   ],
+   [
+    "hit_visit",
+    "page views/visit",
+    "float"
+   ],
+   [
+    "visitmc_ratio",
+    "% Non-consented visits",
+    "pct"
+   ],
+   [
+    "realscartvalid_visitmc",
+    "Estimated non-consented real sales",
+    "int"
+   ],
+   [
+    "realscartvalidamount_visitmc",
+    "Estimated non-consented real revenue",
+    "float"
+   ],
+   [
+    "realestimatevalid_visitmc",
+    "Estimated non-consented real estimates",
+    "int"
+   ],
+   [
+    "realestimatevalidamount_visitmc",
+    "Estimated non-consented real estimate revenue",
+    "float"
+   ],
+   [
+    "visitone",
+    "visits to one page",
+    "int"
+   ],
+   [
+    "visitone_visit",
+    "bounce rate",
+    "pct"
+   ],
+   [
+    "visitone_visitrate",
+    "inbound rate",
+    "pct"
+   ],
+   [
+    "duration",
+    "duration",
+    "time"
+   ],
+   [
+    "duration_visit",
+    "duration/visit",
+    "time"
+   ],
+   [
+    "profilechange",
+    "profile changes",
+    "int"
+   ],
+   [
+    "visitpprofile",
+    "visits per profile",
+    "int"
+   ],
+   [
+    "visitor",
+    "monthly unique visitors",
+    "int"
+   ],
+   [
+    "dvisitor",
+    "daily unique visitors",
+    "int"
+   ],
+   [
+    "newvisitor",
+    "new UV",
+    "int"
+   ],
+   [
+    "newvisitor_visitor",
+    "new UV/UV",
+    "pct"
+   ],
+   [
+    "cost",
+    "cost",
+    "float"
+   ],
+   [
+    "realestimatevalid",
+    "real estimates",
+    "int"
+   ],
+   [
+    "estimatevalid",
+    "estimates",
+    "int"
+   ],
+   [
+    "estimatevalidncpertype",
+    "Number of new customers by estimate type",
+    "int"
+   ],
+   [
+    "realestimatevalid_estimatevalid",
+    "real estimates/estimates",
+    "pct"
+   ],
+   [
+    "cost_realestimatevalid",
+    "real estimate cost",
+    "float"
+   ],
+   [
+    "cost_estimatevalid",
+    "estimate cost",
+    "float"
+   ],
+   [
+    "realestimatevalid_visitor",
+    "real estimates/unique visitor",
+    "pct"
+   ],
+   [
+    "estimatevalid_visitor",
+    "estimates/unique visitor",
+    "pct"
+   ],
+   [
+    "realestimatevalid_scart",
+    "real estimates/shopping cart",
+    "pct"
+   ],
+   [
+    "estimatevalid_scart",
+    "estimates/initiated shopping cart",
+    "pct"
+   ],
+   [
+    "realestimatevalidamount",
+    "estimate real revenue",
+    "float"
+   ],
+   [
+    "estimatevalidamount",
+    "estimate revenue",
+    "float"
+   ],
+   [
+    "scart",
+    "initiated shopping carts",
+    "znegint"
+   ],
+   [
+    "scart_visit",
+    "initiated shopping carts/visit",
+    "pct"
+   ],
+   [
+    "scart_visitor",
+    "initiated shopping cart/unique visitor",
+    "pct"
+   ],
+   [
+    "scart_dvisitor",
+    "initiated shopping cart/unique visitor per day",
+    "pct"
+   ],
+   [
+    "scartunique",
+    "initiated shopping cart per visitor for calendar month",
+    "int"
+   ],
+   [
+    "realscart",
+    "abandoned shopping carts",
+    "int"
+   ],
+   [
+    "realscart_scart",
+    "shopping cart abandon rate",
+    "pct"
+   ],
+   [
+    "realscartvalid",
+    "real sales",
+    "int"
+   ],
+   [
+    "realscartvalid_dvisitor",
+    "real sales/unique visitor per day",
+    "pct"
+   ],
+   [
+    "scartvalid",
+    "sales",
+    "int"
+   ],
+   [
+    "scartvalidncpertype",
+    "Number of new customers by sale type",
+    "int"
+   ],
+   [
+    "realscartvalidamount",
+    "real revenue",
+    "float"
+   ],
+   [
+    "scartvalidamount",
+    "revenue",
+    "float"
+   ],
+   [
+    "scartvalidamount_notax",
+    "revenue excluding taxes",
+    "float"
+   ],
+   [
+    "scartvalidamount_notax_scartvalid",
+    "average shopping cart excluding taxes",
+    "float"
+   ],
+   [
+    "realscartvalidamount_notax",
+    "real revenue excluding taxes",
+    "float"
+   ],
+   [
+    "realscartvalidamount_realscartvalid",
+    "real average shopping cart",
+    "float"
+   ],
+   [
+    "realscartvalidamount_notax_realscartvalid",
+    "real average shopping cart excluding taxes",
+    "float"
+   ],
+   [
+    "scartvalidunique",
+    "sales per visitor for calendar month",
+    "int"
+   ],
+   [
+    "scart_scartunique",
+    "number of new initiated shopping carts",
+    "int"
+   ],
+   [
+    "scartunique_scart",
+    "% of first initiated shopping cart",
+    "pct"
+   ],
+   [
+    "scartvalid_scartvalidunique",
+    "number of rebuyer sales (monthly)",
+    "int"
+   ],
+   [
+    "scartvalidunique_scartvalid",
+    "% of rebuyer sales",
+    "pct"
+   ],
+   [
+    "scartvalidmargin",
+    "sales margin",
+    "float"
+   ],
+   [
+    "realscartvalidmargin",
+    "real sales margin",
+    "float"
+   ],
+   [
+    "cost_scartvalidmargin",
+    "cost/sales margin",
+    "pct"
+   ],
+   [
+    "cost_realscartvalidmargin",
+    "cost/real sales margin",
+    "pct"
+   ],
+   [
+    "ratio_goalcost",
+    "cost objective",
+    "float"
+   ],
+   [
+    "ratio_goalrealscartvalid",
+    "real sales objective",
+    "int"
+   ],
+   [
+    "ratio_goalrealscartvalidamount",
+    "real revenue objective",
+    "float"
+   ],
+   [
+    "ratio_goalrealscartvalidmargin",
+    "real sales margin objective",
+    "float"
+   ],
+   [
+    "ratio_goalrealestimatevalid",
+    "real estimates objective",
+    "int"
+   ],
+   [
+    "ratio_goalrealestimatevalidamount",
+    "real estimates revenue objective",
+    "float"
+   ],
+   [
+    "ratio_goalrealestimatevalidmargin",
+    "real estimates margin objective",
+    "float"
+   ],
+   [
+    "ratio_kgoalcost",
+    "cost objective per type",
+    "float"
+   ],
+   [
+    "ratio_kgoalrealscartvalid",
+    "real sales objective per type",
+    "int"
+   ],
+   [
+    "ratio_kgoalrealscartvalidamount",
+    "real revenue objective per type",
+    "float"
+   ],
+   [
+    "ratio_kgoalrealscartvalidmargin",
+    "real sales margin objective per type",
+    "float"
+   ],
+   [
+    "ratio_kgoalrealestimatevalid",
+    "real estimates objective per type",
+    "int"
+   ],
+   [
+    "ratio_kgoalrealestimatevalidamount",
+    "real estimates revenue objective by type",
+    "float"
+   ],
+   [
+    "ratio_kgoalrealestimatevalidmargin",
+    "real estimates margin objective by type",
+    "float"
+   ],
+   [
+    "realscartvalid_project",
+    "projected real sales",
+    "int"
+   ],
+   [
+    "realscartvalidamount_project",
+    "projected real revenue",
+    "float"
+   ],
+   [
+    "realscartvalidmargin_project",
+    "projected real sales margin",
+    "float"
+   ],
+   [
+    "realestimatevalid_project",
+    "projected real estimates",
+    "int"
+   ],
+   [
+    "realestimatevalidamount_project",
+    "projected real estimates revenue",
+    "float"
+   ],
+   [
+    "realestimatevalidmargin_project",
+    "projected real estimates margin",
+    "float"
+   ],
+   [
+    "cost_project",
+    "projected cost",
+    "float"
+   ],
+   [
+    "realscartvalid_visit",
+    "real sales/visit",
+    "pct"
+   ],
+   [
+    "scartvalid_visit",
+    "sales/visits",
+    "pct"
+   ],
+   [
+    "realscartvalid_visitor",
+    "real sales/unique visitor",
+    "pct"
+   ],
+   [
+    "hit_click",
+    "page views/click",
+    "float"
+   ],
+   [
+    "newcustomer",
+    "new customers",
+    "int"
+   ],
+   [
+    "scartvalidamount_newcustomer",
+    "Revenue / new customers",
+    "float"
+   ],
+   [
+    "realscartvalidamount_newcustomer",
+    "Real revenue / new customers",
+    "float"
+   ],
+   [
+    "newcustomer_scartvalid",
+    "new customers / sales",
+    "float"
+   ],
+   [
+    "newcustomer_realscartvalid",
+    "new customers / real sales",
+    "float"
+   ],
+   [
+    "estimatevalidamount_newcustomer",
+    "Estimate revenue / new customers",
+    "float"
+   ],
+   [
+    "realestimatevalidamount_newcustomer",
+    "Real estimate revenue / new customers",
+    "float"
+   ],
+   [
+    "realscartvalid_scart",
+    "real sales/initiated shopping cart",
+    "pct"
+   ],
+   [
+    "scart_realscartvalid",
+    "initiated shopping cart/real sales",
+    "pct"
+   ],
+   [
+    "realscartvalid_realestimatevalid",
+    "real sales/estimates",
+    "pct"
+   ],
+   [
+    "roas",
+    "ROAS",
+    "pct"
+   ],
+   [
+    "roas_notax",
+    "real ROAS excluding taxes",
+    "pct"
+   ],
+   [
+    "realroas_notax",
+    "ROAS excluding taxes",
+    "pct"
+   ],
+   [
+    "roi",
+    "return on investment",
+    "pct"
+   ],
+   [
+    "roi_notax",
+    "real ROI excluding taxes",
+    "pct"
+   ],
+   [
+    "realroi_notax",
+    "ROI excluding taxes",
+    "pct"
+   ],
+   [
+    "cost_visitor",
+    "cost per unique visitor",
+    "float"
+   ],
+   [
+    "cost_scart",
+    "cost per initiated shopping cart",
+    "float"
+   ],
+   [
+    "cost_scartvalid",
+    "cost per sale",
+    "float"
+   ],
+   [
+    "cost_realscartvalid",
+    "cost per real sale",
+    "float"
+   ],
+   [
+    "cost_realscartvalidamount",
+    "cost/real revenue",
+    "float"
+   ],
+   [
+    "cost_realscartvalidamount_notax",
+    "cost/real revenue excluding taxes",
+    "float"
+   ],
+   [
+    "realscartvalid_click",
+    "real sales/inbound click",
+    "pct"
+   ],
+   [
+    "realscartvalid_clicksession",
+    "real sales/session inbound click",
+    "pct"
+   ],
+   [
+    "realscartvalid_clickunique",
+    "real sales/unique inbound click",
+    "pct"
+   ],
+   [
+    "scartvalid_click",
+    "sales/inbound click",
+    "pct"
+   ],
+   [
+    "scartvalid_clicksession",
+    "sales/session inbound click",
+    "pct"
+   ],
+   [
+    "scartvalid_clickunique",
+    "sales/unique inbound click",
+    "pct"
+   ],
+   [
+    "realscartvalidamount_clickunique",
+    "real revenue/unique inbound click",
+    "float"
+   ],
+   [
+    "realscartvalidamount_visit",
+    "real revenue/visit",
+    "float"
+   ],
+   [
+    "clickorout",
+    "unique outbound clickers",
+    "int"
+   ],
+   [
+    "viewout",
+    "outbound impressions",
+    "int"
+   ],
+   [
+    "clickout",
+    "outbound clicks",
+    "int"
+   ],
+   [
+    "clickout_viewout",
+    "outbound clicks/outbound impressions",
+    "pct"
+   ],
+   [
+    "clickout_click",
+    "outbound clicks/inbound clicks",
+    "pct"
+   ],
+   [
+    "viewoutsession",
+    "outbound session impressions",
+    "int"
+   ],
+   [
+    "clickoutsession",
+    "session outbound clicks",
+    "int"
+   ],
+   [
+    "clickoutsession_viewoutsession",
+    "outbound clicks/session outbound impressions",
+    "pct"
+   ],
+   [
+    "clickoutsession_clicksession",
+    "outbound clicks/session inbound clicks",
+    "pct"
+   ],
+   [
+    "viewoutunique",
+    "outbound unique impressions",
+    "int"
+   ],
+   [
+    "clickoutunique",
+    "unique outbound clicks",
+    "int"
+   ],
+   [
+    "clickoutunique_viewoutunique",
+    "unique outbound clicks/outbound impressions",
+    "pct"
+   ],
+   [
+    "clickoutunique_clickunique",
+    "unique outbound clicks/inbound clicks",
+    "pct"
+   ],
+   [
+    "clickout_visit",
+    "outbound clicks/visits",
+    "pct"
+   ],
+   [
+    "estimatevalid_click",
+    "estimates/inbound click",
+    "pct"
+   ],
+   [
+    "realestimatevalid_click",
+    "real estimates/inbound click",
+    "pct"
+   ],
+   [
+    "appinstall",
+    "native application install",
+    "int"
+   ],
+   [
+    "visit_click",
+    "visits/click",
+    "float"
+   ],
+   [
+    "external_sent",
+    "sent emails",
+    "int"
+   ],
+   [
+    "action",
+    "initiated actions",
+    "int"
+   ],
+   [
+    "actionvalid",
+    "validated actions",
+    "int"
+   ],
+   [
+    "hitin",
+    "action hit in",
+    "int"
+   ],
+   [
+    "hitout",
+    "action hit out",
+    "int"
+   ],
+   [
+    "action_actionvalid",
+    "initiated/validated actions",
+    "pct"
+   ],
+   [
+    "actionvalid_action",
+    "validated/initiated actions",
+    "pct"
+   ],
+   [
+    "engaged_clicks",
+    "Engagement rate (click)",
+    "int"
+   ],
+   [
+    "attention_rate",
+    "Attention rate",
+    "pct"
+   ],
+   [
+    "response_rate",
+    "Response rate",
+    "pct"
+   ],
+   [
+    "response_rate_viewable",
+    "Response rate (real visibility)",
+    "pct"
+   ],
+   [
+    "external_appinstall",
+    "Partner application installations",
+    "int"
+   ]
+  ],
+  "fields": [
+   {
+    "name": "field"
+   },
+   {
+    "name": "name"
+   },
+   {
+    "name": "affinity"
+   }
+  ]
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "data": {
+  "fields": [
+   {
+    "name": "path"
+   },
+   {
+    "name": "text"
+   },
+   {
+    "name": "data"
+   },
+   {
+    "name": "segmentations"
+   }
+  ],
+  "rows": [
+   [
+    "mcWEBSITE[28].mcGLOBALOPE",
+    "undefined key_ns=global.segment.mcglobalope key=segment.mcglobalope # lg=en",
+    [],
+    [
+     {
+      "path": "mcWEBSITE[28].mcGLOBALOPE.mcOPE",
+      "text": "acquisition campaign"
+     },
+     {
+      "path": "mcWEBSITE[28].mcGLOBALOPE.mcOPEDATA",
+      "text": "tracking id"
+     }
+    ]
+   ]
+  ]
+ },
+ "error": false
+}

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "lib": ["ES2022", "dom", "dom.iterable"],
+    "strict": true,
+    "noEmit": true,
+    "allowJs": true,
+    "checkJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "useUnknownInCatchVariables": false,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@tableau/taco-toolkit/handlers": ["test/stubs/taco-handlers.ts"],
+      "@tableau/taco-toolkit": ["test/stubs/taco-app.ts"]
+    }
+  },
+  "include": ["connector/core", "connector/handlers", "connector/app/form-model.ts", "test"]
+}

@@ -1,0 +1,20 @@
+{
+ "data": {
+  "rows": [],
+  "fields": [
+   {
+    "name": "path"
+   },
+   {
+    "name": "text"
+   },
+   {
+    "name": "data"
+   },
+   {
+    "name": "segmentations"
+   }
+  ]
+ },
+ "error": false
+}
